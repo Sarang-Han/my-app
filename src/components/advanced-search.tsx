@@ -11,11 +11,9 @@ import { Switch } from "@/components/ui/switch"
 import { ScrollArea } from "@/components/ui/scroll-area"
 
 import { 
-  Search, 
-  Calendar,
+  Search,
   Twitter,
   Instagram,
-  ArrowUpDown,
   Clock,
   Trash2
 } from 'lucide-react'
@@ -27,14 +25,6 @@ const searchHistory = [
   "사이버 보안 최신 동향",
   "퀀텀 컴퓨팅 응용",
   "블록체인 기술 활용"
-]
-
-const recommendedSearches = [
-  "메타버스",
-  "인공지능 윤리",
-  "클라우드 컴퓨팅",
-  "엣지 컴퓨팅",
-  "디지털 트랜스포메이션"
 ]
 
 const subscriptionSources = [
